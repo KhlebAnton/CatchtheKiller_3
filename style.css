@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'PT Mono';
+    src: url('./fonts/PTMono-Regular.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    object-fit: contain;
+}
+.logo {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    height: 289px;
+    background: url('./img/logo_new_new.png') 50% / contain no-repeat;
+}
+.main-title {
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+    margin: 15px auto;
+    width: fit-content;
+    display: block;
+    background: url('./img/h1bg.png') 50% / 100% 100% no-repeat;
+
+}
+html {
+    font-family:'PT Mono', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background: url('./img/topbg.jpg') 50% / cover;
+    background-attachment: fixed;
+    background-color: #231f1f;
+    color: #ffffff;
+    
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+}
+.main {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.main .container {
+    background-color: #231f1f;
+    padding: 20px;
+    border-radius: 12px;
+    
+}
+.header {
+    
+    padding: 20px;
+    background-color: #231f1f;
+}
+.header span {
+    color: rgb(148, 3, 3);
+}
+.btn-primary {
+    cursor: pointer;
+    height: 30px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    background-color: rgb(172, 0, 0);
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.folder__text {
+    color: #231f1f;
+    text-align: start;
+}
+.folder {
+    background-image: url('./img/folder.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    min-height: 403px;
+    background-size: 100% 100%;
+    max-width: 556px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: space-around;
+    padding-right: 20px;
+}
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main {
+    padding: 20px;
+}
+.main-text {
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 550px;
+    text-align: center;
+    margin: 0 auto;
+}
+ul,
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    margin-left: 2rem;   
+}
+a:hover {
+    opacity: .8;
+}
+
+ol li::after {
+    display: block;
+    content: '';
+    height: 2px;
+    background-color: #ffffff;
+    margin: 2px 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
